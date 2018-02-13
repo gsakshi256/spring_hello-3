@@ -17,7 +17,7 @@ public class Controller {
 	RestService rs;
   
 	
-	@RequestMapping(value="/all")
+	@RequestMapping(value="/showalluser")
 	public Hashtable<String, Info> getAll() {
 		return rs.getAll();
 	}
